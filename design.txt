@@ -1,0 +1,5 @@
+index (home)
+H1 = The Rolling Stones unofficial webpage
+
+div nav bar
+Domu;(index); Historie; Vyznamne koncerty; clenove kapely, contacts

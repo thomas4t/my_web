@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  background: rgb(60, 60, 60); /*is set when background-image cant be found*/
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff9f9;
+  margin: 0;
+}
+.kontejner {
+  width: 90%;
+  background-color: rgba(100, 100, 100, 0.9);
+
+  padding: 1em;
+  margin: 5% auto;
+  border-width: 3px;
+  border-radius: 10px;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-color: oldlace;
+}
+header h1 {
+  padding: 20px;
+  font-size: 45px;
+}
+nav {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-color: oldlace;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(100, 100, 100, 0);
+  display: inline-block;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+.obsah {
+  margin: 2em;
+}
+
+.obsahIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header,
+footer {
+  text-align: center;
+}
+
+footer {
+  border-top-width: 2px;
+  border-top-style: dotted;
+  border-color: oldlace;
+}
+
+.citace {
+  font-size: 0.75em;
+}
+
+.loga {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.citace1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 50% auto;
+}
+
